@@ -3,7 +3,7 @@
 Тестовое задание на позицию Frontend-разработчика.  
 Мини-приложение из двух страниц с интерактивным меню и реактивным состоянием.
 
-🔗 **[Открыть на GitHub Pages](https://ИМЯ_ПОЛЬЗОВАТЕЛЯ.github.io/ИМЯ_РЕПО/)**
+🔗 **[Открыть на GitHub Pages](https://viktorcherepanov.github.io/selectel-testovoe/)**
 
 ---
 
