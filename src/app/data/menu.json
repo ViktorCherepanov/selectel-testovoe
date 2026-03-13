@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Фрукты",
+    "items": [
+      { "id": 1, "label": "Яблоко", "value": 50, "selected": false },
+      { "id": 2, "label": "Банан", "value": 30, "selected": false },
+      { "id": 3, "label": "Апельсин", "value": 70, "selected": false }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Овощи",
+    "items": [
+      { "id": 4, "label": "Морковь", "value": 20, "selected": false },
+      { "id": 5, "label": "Картофель", "value": 40, "selected": false },
+      { "id": 6, "label": "Помидор", "value": 60, "selected": false }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Напитки",
+    "items": [
+      { "id": 7, "label": "Вода", "value": 15, "selected": false },
+      { "id": 8, "label": "Сок", "value": 80, "selected": false },
+      { "id": 9, "label": "Чай", "value": 25, "selected": false }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+<label>
+  <input
+    type="checkbox"
+    [checked]="item().selected"
+    (change)="toggled.emit(item().id)"
+  />
+  {{ item().label }} — {{ item().value }}
+</label>

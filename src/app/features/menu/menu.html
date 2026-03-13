@@ -1,0 +1,26 @@
+<header class="container menu-block">
+  <h1>{{ menuService.activeGroup().title }}</h1>
+  <a routerLink="/">На главную</a>
+  <span>Выбрано: {{ menuService.selectedCount() }}</span>
+  <span>Сумма: {{ menuService.totalValue() }}</span>
+</header>
+
+<nav class="container">
+  @for (group of menuService.menuGroups(); track group.id) {
+    <button
+      (click)="menuService.setActiveGroup(group.id)"
+      [class.active]="group.id === menuService.activeGroupId()"
+    >
+      {{ group.title }}
+    </button>
+  }
+</nav>
+
+<section class="container">
+  @for (item of menuService.activeGroup().items; track item.id) {
+    <app-menu-item
+      [item]="item"
+      (toggled)="menuService.toggle($event)"
+    />
+  }
+</section>
